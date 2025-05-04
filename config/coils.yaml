@@ -58,6 +58,10 @@ coils:
     number: 1616-2
     default_pulse_ms: 20
 
+  c_scoop:
+    number: 1616-3
+    default_pulse_ms: 15
+
 
 
 #Autofire devices are defined here by switch and what coil is cycled when that switch is active.

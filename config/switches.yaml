@@ -109,4 +109,6 @@ switches:
   s_star_bumper_upper:
     number: 1616-3
 
-  
+  s_scoop:
+    number: 1616-4
+    type: "NC"

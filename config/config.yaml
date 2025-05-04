@@ -136,3 +136,8 @@ ball_devices:
     mechanical_eject: true
     eject_coil: c_auto_plunger
     eject_timeouts: 10s
+    
+  bd_scoop:
+    ball_switches: s_scoop
+    eject_coil: c_scoop
+    eject_timeouts: 2s
