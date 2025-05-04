@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfk2ehpc05rwc"]
+
+[ext_resource type="Script" uid="uid://dx1bavuo7xeae" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://dx1bavuo7xeae"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1.0
+offset_right = 1279.0
+offset_bottom = 720.0
+color = Color(1, 0.0980392, 0.0588235, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 218.0
+offset_right = 1274.0
+offset_bottom = 499.0
+theme_override_font_sizes/font_size = 80
+text = "36th Chamber of Shaolin"
+horizontal_alignment = 1
+vertical_alignment = 1
