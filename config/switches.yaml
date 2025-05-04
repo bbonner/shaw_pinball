@@ -1,0 +1,112 @@
+#config_version=6
+
+# Can name these to match left, right, center, or however you want.
+# The switch name defined here will be used in any modes where
+# the switches are activated, etc.
+
+switches:
+
+#3208 Board
+## Block A
+  s_right_outer_lane:
+    number: 3208-11
+    tags: playfield_active
+
+  s_right_inner_lane:
+    number: 3208-10
+    tags: playfield_active
+
+  s_right_flipper_eos:
+    number: 3208-8
+    # type: 'NC'
+  
+
+
+  s_right_sling: # Parallel switch pair
+    number: 3208-9
+
+  s_plunger: # shooter lane presence
+    number: 3208-7
+    type: 'NC'
+
+## Block B
+  s_left_outer_lane:
+    number: 3208-13
+    tags: playfield_active
+
+  s_left_inner_lane:
+    number: 3208-14
+    tags: playfield_active
+
+  s_left_flipper_eos:
+    number: 3208-12
+    # type: 'NC'
+  
+  s_third_flipper_eos:
+    number: 1616-0
+    
+
+
+  s_left_sling: # Parallel switch pair
+    number: 3208-15
+
+## Block C #FUTURE
+  s_trough_ball_jam:
+    number: 3208-6
+    type: 'NC'
+
+  s_trough_ball_1:
+    number: 3208-0
+    type: 'NC'
+
+  s_trough_ball_2:
+    number: 3208-1
+
+  s_trough_ball_3:
+    number: 3208-2
+
+  s_trough_ball_4:
+    number: 3208-3
+  
+  s_trough_ball_5:
+    number: 3208-4
+
+  s_trough_ball_6:
+    number: 3208-5
+
+#Cabinet switches FUTURE
+#TODO check the board number as 0024 or smth else
+  s_right_flipper:
+    number: 0024-16
+    tags: flipper_right
+
+  s_left_flipper:
+    number: 0024-8
+    tags: flipper_left
+
+  s_flipper_right_lidar:
+    number: 3208-16
+    type: "NC"
+    tags: flipper_right
+
+  s_flipper_left_lidar:
+    number: 3208-17
+    type: "NC"
+    tags: flipper_left
+
+  s_start:
+    number: 0024-12
+    tags: start
+
+#upper 2/3 playfield_switches
+
+  s_pop_bumper:
+    number: 1616-1
+
+  s_star_bumper_lower:
+    number: 1616-2
+  
+  s_star_bumpoer_upper:
+    number: 1616-3
+
+  

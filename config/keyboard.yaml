@@ -1,0 +1,10 @@
+#config_version=6
+
+keyboard:
+  s:
+    switch: s_start
+  z: 
+    switch: s_left_flipper
+  '?':
+    switch: s_right_flipper
+    
