@@ -74,6 +74,8 @@ game:
 modes:
   - base
   - attract
+  - bumpers
+
 
 flippers:
   flipper_left:
@@ -141,3 +143,8 @@ ball_devices:
     ball_switches: s_scoop
     eject_coil: c_scoop
     eject_timeouts: 2s
+
+virtual_platform_start_active_switches:
+  - s_trough_ball_1
+  - s_trough_ball_2
+  - s_trough_ball_3

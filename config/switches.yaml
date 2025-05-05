@@ -112,3 +112,6 @@ switches:
   s_scoop:
     number: 1616-4
     type: "NC"
+
+  s_middle_bash:
+    number: 1616-5

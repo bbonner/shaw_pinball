@@ -1,0 +1,75 @@
+2025-05-04 18:19:34,556 : INFO : root : Loading config.
+2025-05-04 18:19:34,558 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-04 18:19:34,558 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\shaw_pinball\config\config.yaml
+2025-05-04 18:19:34,558 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-05-04 18:19:34,563 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-05-04 18:19:34,563 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\config\config.yaml.
+2025-05-04 18:19:34,564 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\config.yaml
+2025-05-04 18:19:34,565 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\coils.yaml
+2025-05-04 18:19:34,566 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\switches.yaml
+2025-05-04 18:19:34,567 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\keyboard.yaml
+2025-05-04 18:19:34,568 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\f86648965732716a774abe330a35567f.mpf_cache
+2025-05-04 18:19:34,612 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-04 18:19:34,612 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\14f8e91e6393da8cb7b325adfbe7ed92.mpf_cache
+2025-05-04 18:19:34,613 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\shaw_pinball\modes\base\config\base.yaml
+2025-05-04 18:19:34,613 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\base\config\base.yaml.
+2025-05-04 18:19:34,617 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\base\config\base.yaml
+2025-05-04 18:19:34,618 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\437cbc5b651d395d3b48baa33047334e.mpf_cache
+2025-05-04 18:19:34,618 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-04 18:19:34,618 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\bumpers\config\bumpers.yaml.
+2025-05-04 18:19:34,623 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\bumpers\config\bumpers.yaml
+2025-05-04 18:19:34,623 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\a5d9331d5edf0819f14f654fc5b58f80.mpf_cache
+2025-05-04 18:19:34,623 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-05-04 18:19:34,623 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-05-04-18-19-34-mpf-wintermute.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\shaw_pinball\\logs\\2025-05-04-18-19-34-mpf-wintermute.log'}
+2025-05-04 18:19:34,623 : INFO : Machine : MPF path: C:\pinball\mpf\Lib\site-packages\mpf
+2025-05-04 18:19:34,623 : INFO : Machine : Machine path: C:\pinball\shaw_pinball
+2025-05-04 18:19:34,623 : INFO : Machine : Platform: win32
+2025-05-04 18:19:34,623 : INFO : Machine : Python executable location: C:\pinball\mpf\Scripts\python.exe
+2025-05-04 18:19:34,623 : INFO : Machine : Python version: 3.12.8 (64-bit)
+2025-05-04 18:19:34,625 : INFO : Machine : Initializing MPF...
+2025-05-04 18:19:34,665 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,676 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,676 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,676 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,676 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.8', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,755 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,755 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,755 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,755 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,755 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,755 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\shaw_pinball\\logs\\2025-05-04-18-19-34-mpf-wintermute.log', 'prev_value': None, 'change': True}
+2025-05-04 18:19:34,755 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-05-04 18:19:34,761 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...dictionary.")>) at C:\pinball\mpf\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...dictionary.")>) at C:\pinball\mpf\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\bradl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\device_manager.py", line 83, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\device_manager.py", line 123, in create_devices
+    self.raise_config_error("Device {}:'{}' does not have a valid config. Expected a dictionary.".format(
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device switches:'s_middle_bash' does not have a valid config. Expected a dictionary. Context: switches.s_middle_bash Error Code: CFE-DeviceManager-3 (https://missionpinball.org/logs)
+2025-05-04 18:19:34,762 : INFO : Machine : Starting the main run loop with active modes: []
+2025-05-04 18:19:34,762 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-05-04 18:19:34,762 : INFO : Machine : Shutting down...
+2025-05-04 18:19:34,763 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-05-04 18:19:35,778 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\bradl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\device_manager.py", line 83, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\device_manager.py", line 123, in create_devices
+    self.raise_config_error("Device {}:'{}' does not have a valid config. Expected a dictionary.".format(
+  File "C:\pinball\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device switches:'s_middle_bash' does not have a valid config. Expected a dictionary. Context: switches.s_middle_bash Error Code: CFE-DeviceManager-3 (https://missionpinball.org/logs)
+2025-05-04 18:19:35,779 : INFO : root : MPF run loop ended.
