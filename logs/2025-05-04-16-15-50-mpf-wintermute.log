@@ -1,0 +1,99 @@
+2025-05-04 16:15:50,177 : INFO : root : Loading config.
+2025-05-04 16:15:50,197 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\bradl\AppData\Local\Temp\config_spec.mpf_cache
+2025-05-04 16:15:50,197 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-04 16:15:50,197 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-05-04 16:15:50,201 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-05-04 16:15:50,201 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\config\config.yaml.
+2025-05-04 16:15:50,203 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\config.yaml
+2025-05-04 16:15:50,204 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\coils.yaml
+2025-05-04 16:15:50,211 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\switches.yaml
+2025-05-04 16:15:50,212 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\keyboard.yaml
+2025-05-04 16:15:50,212 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\f86648965732716a774abe330a35567f.mpf_cache
+2025-05-04 16:15:50,253 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2025-05-04 16:15:50,255 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-05-04 16:15:50,255 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\attract\config\attract.yaml.
+2025-05-04 16:15:50,255 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\attract\config\attract.yaml
+2025-05-04 16:15:50,255 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-04 16:15:50,255 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2025-05-04 16:15:50,256 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-05-04 16:15:50,256 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\14f8e91e6393da8cb7b325adfbe7ed92.mpf_cache
+2025-05-04 16:15:50,256 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\base\config\base.yaml.
+2025-05-04 16:15:50,257 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\base\config\base.yaml
+2025-05-04 16:15:50,257 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\437cbc5b651d395d3b48baa33047334e.mpf_cache
+2025-05-04 16:15:50,257 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2025-05-04 16:15:50,258 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-05-04 16:15:50,258 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\attract\config\attract.yaml.
+2025-05-04 16:15:50,258 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\attract\config\attract.yaml
+2025-05-04 16:15:50,258 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-04 16:15:50,258 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-05-04 16:15:50,258 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-05-04-16-15-50-mpf-wintermute.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\shaw_pinball\\logs\\2025-05-04-16-15-50-mpf-wintermute.log'}
+2025-05-04 16:15:50,259 : INFO : Machine : MPF path: C:\pinball\mpf\Lib\site-packages\mpf
+2025-05-04 16:15:50,259 : INFO : Machine : Machine path: C:\pinball\shaw_pinball
+2025-05-04 16:15:50,259 : INFO : Machine : Platform: win32
+2025-05-04 16:15:50,259 : INFO : Machine : Python executable location: C:\pinball\mpf\Scripts\python.exe
+2025-05-04 16:15:50,259 : INFO : Machine : Python version: 3.12.8 (64-bit)
+2025-05-04 16:15:50,260 : INFO : Machine : Initializing MPF...
+2025-05-04 16:15:50,296 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,306 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,306 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,306 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,307 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.8', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,387 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,387 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,387 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,387 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,387 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,387 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\shaw_pinball\\logs\\2025-05-04-16-15-50-mpf-wintermute.log', 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,387 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-05-04 16:15:50,401 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-05-04 16:15:50,402 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-05-04 16:15:50,402 : INFO : ball_device.bd_trough : State: idle
+2025-05-04 16:15:50,402 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-05-04 16:15:50,402 : INFO : ball_device.bd_plunger : State: idle
+2025-05-04 16:15:50,405 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-05-04 16:15:50,406 : INFO : BallController : Initial balls found: 0
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_third_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outer_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left_lidar'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inner_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_lidar'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_bumper_lower'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_bumpoer_upper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-05-04 16:15:50,407 : INFO : Mode.attract : Started. Priority: 10
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-05-04 16:15:50,407 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-05-04 16:15:50,408 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-05-04 16:15:50,408 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-05-04 16:15:52,851 : INFO : Machine : Shutting down...
+2025-05-04 16:15:52,851 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-05-04 16:15:52,852 : INFO : root : MPF run loop ended.

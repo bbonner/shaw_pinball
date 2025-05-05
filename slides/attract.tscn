@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://dfk2ehpc05rwc"]
+[gd_scene load_steps=5 format=3 uid="uid://dfk2ehpc05rwc"]
 
 [ext_resource type="Script" uid="uid://dx1bavuo7xeae" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+[ext_resource type="Script" uid="uid://dxkgrklkojp73" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_f161n"]
+[ext_resource type="Script" uid="uid://bi3ed66ouwflo" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_cq3lo"]
+[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_twbla"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -15,13 +18,212 @@ offset_right = 1279.0
 offset_bottom = 720.0
 color = Color(1, 0.0980392, 0.0588235, 1)
 
-[node name="Label" type="Label" parent="ColorRect"]
+[node name="MPFCarousel" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_f161n")
+carousel_name = "attract"
+metadata/_custom_type_script = "uid://dxkgrklkojp73"
+
+[node name="title" type="Label" parent="MPFCarousel"]
+visible = false
 layout_mode = 0
-offset_left = 10.0
-offset_top = 218.0
-offset_right = 1274.0
-offset_bottom = 499.0
+offset_left = 9.0
+offset_top = 14.0
+offset_right = 1273.0
+offset_bottom = 723.0
 theme_override_font_sizes/font_size = 80
 text = "36th Chamber of Shaolin"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="credits" type="Label" parent="MPFCarousel"]
+visible = false
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 721.0
+theme_override_font_sizes/font_size = 80
+text = "SAMPLE TEXT"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "credits_string"
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
+visible = false
+position = Vector2(659, 380)
+texture = ExtResource("4_twbla")
+
+[node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 1280.0
+offset_bottom = 719.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 1280.0
+offset_bottom = 361.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_left = 4.0
+offset_top = 369.0
+offset_right = 1282.0
+offset_bottom = 727.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="last_scores_3p" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 1280.0
+offset_bottom = 187.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_left = 1.0
+offset_top = 228.0
+offset_right = 1279.0
+offset_bottom = 467.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_left = 1.0
+offset_top = 479.0
+offset_right = 1279.0
+offset_bottom = 718.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player3_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 1280.0
+offset_bottom = 187.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_left = 1.0
+offset_top = 193.0
+offset_right = 1279.0
+offset_bottom = 332.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_left = -4.0
+offset_top = 560.0
+offset_right = 1274.0
+offset_bottom = 694.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player3_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"
+
+[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_left = 1.0
+offset_top = 378.0
+offset_right = 1279.0
+offset_bottom = 512.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player3_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bi3ed66ouwflo"

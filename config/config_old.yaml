@@ -23,9 +23,9 @@ fast:
     default_normal_debounce_close: 4ms
   
 switches:
-  s_left_flipper:
+  s_flipper_left:
     number: cab-8  # this can be blank if you don't have physical hw yet
-  s_right_flipper:
+  s_flipper_right:
     number: cab-16  # if you do have physical hw, most likely your number will be different
 
 coils:
@@ -46,13 +46,13 @@ playfields:
     default_source_device: None  # use None in steps before 8
 
 flippers:
-  left_flipper:
+  flipper_left:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
-    activation_switch: s_left_flipper
+    activation_switch: s_flipper_left
     enable_events: machine_reset_phase_3
-  right_flipper:
+  flipper_right:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
-    activation_switch: s_right_flipper
+    activation_switch: s_flipper_right
     enable_events: machine_reset_phase_3

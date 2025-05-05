@@ -16,7 +16,7 @@ switches:
     number: 3208-10
     tags: playfield_active
 
-  s_right_flipper_eos:
+  s_flipper_right_eos:
     number: 3208-8
     # type: 'NC'
   
@@ -38,7 +38,7 @@ switches:
     number: 3208-14
     tags: playfield_active
 
-  s_left_flipper_eos:
+  s_flipper_left_eos:
     number: 3208-12
     # type: 'NC'
   
@@ -76,11 +76,11 @@ switches:
 
 #Cabinet switches FUTURE
 #TODO check the board number as 0024 or smth else
-  s_right_flipper:
+  s_flipper_right:
     number: 0024-16
     tags: flipper_right
 
-  s_left_flipper:
+  s_flipper_left:
     number: 0024-8
     tags: flipper_left
 

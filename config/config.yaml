@@ -76,44 +76,44 @@ modes:
   - attract
 
 flippers:
-  left_flipper:
+  flipper_left:
     main_coil: c_flipper_left_full
     hold_coil: c_flipper_left_hold
-    activation_switch: s_left_flipper
-    eos_switch: s_left_flipper_eos
+    activation_switch: s_flipper_left
+    eos_switch: s_flipper_left_eos
     #enable_events: ball_started, enableAutofire
     #disable_events: ball_will_end, service_mode_entered, disableAutofire
     #enable_events: machine_reset_phase_3
   third_flipper:
     main_coil: c_flipper_third_full
     hold_coil: c_flipper_third_hold
-    activation_switch: s_left_flipper
+    activation_switch: s_flipper_left
     eos_switch: s_third_flipper_eos
     #enable_events: ball_started, enableAutofire
     #disable_events: ball_will_end, service_mode_entered, disableAutofire
     #enable_events: machine_reset_phase_3
-  right_flipper:
+  flipper_right:
     main_coil: c_flipper_right_full
     hold_coil: c_flipper_right_hold
-    eos_switch: s_right_flipper_eos
-    activation_switch: s_right_flipper
+    eos_switch: s_flipper_right_eos
+    activation_switch: s_flipper_right
     #enable_events: ball_started, enableAutofire
     #disable_events: ball_will_end, service_mode_entered, disableAutofire
     #enable_events: machine_reset_phase_3
   
-  #right_flipper_lidar:
+  #flipper_right_lidar:
   #  main_coil: c_flipper_right_full
   #  hold_coil: c_flipper_right_hold
-  #  eos_switch: s_right_flipper_eos
+  #  eos_switch: s_flipper_right_eos
   #  activation_switch: s_flipper_right_lidar
     ##enable_events: ball_started, enableAutofire
     ##disable_events: ball_will_end, service_mode_entered, disableAutofire
     ##enable_events: machine_reset_phase_3
 
-  #left_flipper_lidar:
+  #flipper_left_lidar:
   #  main_coil: c_flipper_left_full
   #  hold_coil: c_flipper_left_hold
-  #  eos_switch: s_left_flipper_eos
+  #  eos_switch: s_flipper_left_eos
   #  activation_switch: s_flipper_left_lidar
     ##enable_events: ball_started, enableAutofire
     ##disable_events: ball_will_end, service_mode_entered, disableAutofire
@@ -136,7 +136,7 @@ ball_devices:
     mechanical_eject: true
     eject_coil: c_auto_plunger
     eject_timeouts: 10s
-    
+
   bd_scoop:
     ball_switches: s_scoop
     eject_coil: c_scoop

@@ -1,0 +1,8 @@
+2025-05-04 16:31:37,182 : INFO : root : Loading config.
+2025-05-04 16:31:37,202 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\bradl\AppData\Local\Temp\config_spec.mpf_cache
+2025-05-04 16:31:37,202 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-04 16:31:37,202 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-05-04 16:31:37,206 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-05-04 16:31:37,207 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\config\config.yaml.
+2025-05-04 16:31:37,208 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\config.yaml
+2025-05-04 16:31:37,208 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\coils.yaml

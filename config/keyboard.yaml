@@ -4,7 +4,7 @@ keyboard:
   s:
     switch: s_start
   z: 
-    switch: s_left_flipper
+    switch: s_flipper_left
   '?':
-    switch: s_right_flipper
+    switch: s_flipper_right
     
