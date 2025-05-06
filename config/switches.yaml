@@ -104,13 +104,13 @@ switches:
     number: 1616-1
 
   s_star_bumper_lower:
-    number: 1616-2
+    number: 1616-6
   
   s_star_bumper_upper:
-    number: 1616-3
+    number: 1616-7
 
   s_scoop:
-    number: 1616-4
+    number: 1616-2
     type: "NC"
 
   s_middle_bash:
