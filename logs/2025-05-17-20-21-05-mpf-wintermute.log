@@ -1,0 +1,9 @@
+2025-05-17 20:21:05,141 : INFO : root : Loading config.
+2025-05-17 20:21:05,148 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-17 20:21:05,148 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\f86648965732716a774abe330a35567f.mpf_cache
+2025-05-17 20:21:05,197 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-17 20:21:05,197 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\14f8e91e6393da8cb7b325adfbe7ed92.mpf_cache
+2025-05-17 20:21:05,202 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\437cbc5b651d395d3b48baa33047334e.mpf_cache
+2025-05-17 20:21:05,206 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-17 20:21:05,206 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\bumpers\config\bumpers.yaml.
+2025-05-17 20:21:05,210 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\bumpers\config\bumpers.yaml

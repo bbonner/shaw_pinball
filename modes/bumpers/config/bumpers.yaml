@@ -13,6 +13,8 @@ shot_groups:
   bumpers: 
     shots: bumper_left
 
+
+
 variable_player:
   bumpers_hit: 
     score: 1_000

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MPFSoundAsset" load_steps=3 format=3 uid="uid://r20p8u3ss7o8"]
+
+[ext_resource type="Script" uid="uid://c17ombiphqf2d" path="res://addons/mpf-gmc/classes/mpf_sound_marker.gd" id="1_x6yfv"]
+[ext_resource type="Script" uid="uid://bc1r5a3hak8fx" path="res://addons/mpf-gmc/classes/mpf_sound.gd" id="2_q5plv"]
+
+[resource]
+script = ExtResource("2_q5plv")
+bus = ""
+fade_in = 0.0
+fade_out = 0.0
+loops = 0
+start_at = 0.0
+max_queue_time = 0.0
+markers = Array[ExtResource("1_x6yfv")]([])
+metadata/_custom_type_script = "uid://bc1r5a3hak8fx"

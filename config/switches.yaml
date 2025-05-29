@@ -104,10 +104,10 @@ switches:
     number: 1616-1
 
   s_star_bumper_lower:
-    number: 1616-6
+    number: 1616-3
   
   s_star_bumper_upper:
-    number: 1616-7
+    number: 1616-4
 
   s_scoop:
     number: 1616-2
@@ -115,3 +115,24 @@ switches:
 
   s_middle_bash:
     number: 1616-5
+
+  s_middle_left:
+    number: 1616-6
+  
+  s_middle_right:
+    number: 1616-7
+
+  s_spinner_left:
+    number: 1616-8
+    type: "NC"
+  
+  s_spinner_right:
+    number: 1616-9
+    type: "NC"
+
+  s_ramp_left_enter:
+    number: 1616-10
+
+  s_ramp_right_enter:
+    number: 1616-11
+

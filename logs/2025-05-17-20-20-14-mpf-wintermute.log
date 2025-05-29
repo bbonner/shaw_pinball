@@ -1,0 +1,25 @@
+2025-05-17 20:20:14,928 : INFO : root : Loading config.
+2025-05-17 20:20:14,954 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\bradl\AppData\Local\Temp\config_spec.mpf_cache
+2025-05-17 20:20:14,954 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-17 20:20:14,954 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-05-17 20:20:14,964 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-05-17 20:20:14,964 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\config\config.yaml.
+2025-05-17 20:20:14,965 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\config.yaml
+2025-05-17 20:20:14,966 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\coils.yaml
+2025-05-17 20:20:14,967 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\switches.yaml
+2025-05-17 20:20:14,967 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\config\keyboard.yaml
+2025-05-17 20:20:14,968 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\f86648965732716a774abe330a35567f.mpf_cache
+2025-05-17 20:20:15,047 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2025-05-17 20:20:15,051 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-05-17 20:20:15,051 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\attract\config\attract.yaml.
+2025-05-17 20:20:15,052 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\attract\config\attract.yaml
+2025-05-17 20:20:15,052 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-17 20:20:15,053 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2025-05-17 20:20:15,056 : INFO : ConfigProcessor : Loading config: C:\pinball\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-05-17 20:20:15,057 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\14f8e91e6393da8cb7b325adfbe7ed92.mpf_cache
+2025-05-17 20:20:15,057 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\base\config\base.yaml.
+2025-05-17 20:20:15,057 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\base\config\base.yaml
+2025-05-17 20:20:15,058 : INFO : ConfigProcessor : Config file cache created: C:\Users\bradl\AppData\Local\Temp\437cbc5b651d395d3b48baa33047334e.mpf_cache
+2025-05-17 20:20:15,058 : INFO : ConfigProcessor : Loading config from cache: C:\Users\bradl\AppData\Local\Temp\d01143593fa4ea1d4f7571bb64036356.mpf_cache
+2025-05-17 20:20:15,062 : INFO : ConfigProcessor : Loading config from file C:\pinball\shaw_pinball\modes\bumpers\config\bumpers.yaml.
+2025-05-17 20:20:15,065 : INFO : ConfigProcessor : Loading config: C:\pinball\shaw_pinball\modes\bumpers\config\bumpers.yaml

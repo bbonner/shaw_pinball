@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bdslcr4ofcq17"
+path="res://.godot/imported/44 Fu Hit 7.ogg-96f4835c479c5c90e2db5d5b869020be.oggvorbisstr"
+
+[deps]
+
+source_file="res://sounds/effects/44 Fu Hit 7.ogg"
+dest_files=["res://.godot/imported/44 Fu Hit 7.ogg-96f4835c479c5c90e2db5d5b869020be.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

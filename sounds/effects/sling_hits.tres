@@ -1,0 +1,15 @@
+[gd_resource type="AudioStreamRandomizer" load_steps=5 format=3 uid="uid://8mh2f1pdljam"]
+
+[ext_resource type="AudioStream" uid="uid://dxhbjge4m882m" path="res://sounds/effects/39 Fu Hit 2.ogg" id="1_n302o"]
+[ext_resource type="AudioStream" uid="uid://dy27ms5y6d33o" path="res://sounds/effects/40 Fu Hit 3.ogg" id="2_80x7i"]
+[ext_resource type="AudioStream" uid="uid://ccsaudau8gaes" path="res://sounds/effects/41 Fu Hit 4.ogg" id="3_jybcq"]
+[ext_resource type="AudioStream" uid="uid://b27jhhqtg1b5l" path="res://sounds/effects/42 Fu Hit 5.ogg" id="4_0fdkx"]
+
+[resource]
+playback_mode = 1
+random_pitch = 1.5
+streams_count = 4
+stream_0/stream = ExtResource("1_n302o")
+stream_1/stream = ExtResource("2_80x7i")
+stream_2/stream = ExtResource("3_jybcq")
+stream_3/stream = ExtResource("4_0fdkx")
